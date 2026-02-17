@@ -59,18 +59,6 @@
 
 <br>
 
-**Author: Ivy Figari**
-- Unit tests
-    - User controller: successful user registration, user registering with email already in use, successful user login, password incorrect login, email doesnt exist login
-    - User services: successful login, creating invalid user profile with taken email, retireiving user from repository, using an email that doesnt exist,
-    - Vendor services: creating a vendor successfully, trimmed
-- Integration tests
-    - Initial streak is 0 when user registers, streak is then 1 after first purchase
-    - 2 reservations made the same day the streak doesnt increase twice
-  - test_evidence.pdf, main initial evaluation
-
-<br>
-
 ### Product Service 
 **Author: Robert Rainer**
 - Developed Product and Allergen Components:
@@ -178,7 +166,14 @@
 
 ## Testing
 **Author: Ivy Figari**
-- {Description here}
+- Unit tests
+    - User controller: successful user registration, user registering with email already in use, successful user login, password incorrect login, email doesnt exist login
+    - User services: successful login, creating invalid user profile with taken email, retireiving user from repository, using an email that doesnt exist,
+    - Vendor services: creating a vendor successfully, trimmed
+- Integration tests
+    - Initial streak is 0 when user registers, streak is then 1 after first purchase
+    - 2 reservations made the same day the streak doesnt increase twice
+  - test_evidence.pdf, main initial evaluation
 
 <br>
 
