@@ -265,4 +265,3 @@
 - Wrote the licence decision with justification, explaining the licence's suitability and compatibility with third party dependencies.
 - Configured and inserted the MIT LICENSE file across all project repositories.
 
-<br
