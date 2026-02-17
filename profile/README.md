@@ -173,7 +173,7 @@
 - Integration tests
     - Initial streak is 0 when user registers, streak is then 1 after first purchase
     - 2 reservations made the same day the streak doesnt increase twice
-  - test_evidence.pdf, main initial evaluation
+-  documentation: initial evaluation, test_evidence.pdf
 
 <br>
 
