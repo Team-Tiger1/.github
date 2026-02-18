@@ -202,7 +202,10 @@
   - Wrote about future plans for the forecasting models
   - Highlighted areas for improvement
 - Wrote Process Evidence
-  - NOT DONE YET WILL WRITE HERE WHEN DONE
+  - Discussed Role Allocation
+  - Explained Task Management
+  - Discussed Risk Management
+- Wrote Risk Register
 
 <br>
 
@@ -246,6 +249,12 @@
 <br>
 
 **Author: Ivy Figari**
+- Wrote testing_evidence.pdf
+  - Explained manual end to end tests
+  - Explained automated tests, unit tests, and integration tests
+- Wrote Evaluation
+  - Wrote Initial Evaluation Evidence
+  - Wrote Scope Control
 
 <br>
 
