@@ -1,20 +1,5 @@
 # Contributions
 
-## DevOps
-**Author: Jed Leas**
-- My focus has been setting up the instances of the achirtecture designed by Daniel Jackson which included setting up the:
-  - Nginx (Reverse proxy)
-  - K3s
-  - Postgres
-  - RabbitMQ
-  - Nginx (Website hosting)
-- As well as setting up all CI/CD workflows to handle 
-  - Automatic testing on push of main branch on each microservices repo
-  - Automatic Deployment onto k3s with zero downtime on compleation of automatic testing so broken code wont make it to deployment
-- And Sorting out bug fixes and connections between each microservices to eachother and the databases for both deployment and testings  
-
-<br>
-
 ## Backend Services  
 
 ### API Gateway
@@ -162,6 +147,21 @@
 - Created Standard Header and Footer for all Web pages
 - Added Analytics Page so vendors can see reservation statistics
   
+<br>
+
+## DevOps
+**Author: Jed Leas**
+- My focus has been setting up the instances of the achirtecture designed by Daniel Jackson which included setting up the:
+  - Nginx (Reverse proxy)
+  - K3s
+  - Postgres
+  - RabbitMQ
+  - Nginx (Website hosting)
+- As well as setting up all CI/CD workflows to handle 
+  - Automatic testing on push of main branch on each microservices repo
+  - Automatic Deployment onto k3s with zero downtime on compleation of automatic testing so broken code wont make it to deployment
+- And Sorting out bug fixes and connections between each microservices to eachother and the databases for both deployment and testings  
+
 <br>
 
 ## Testing
