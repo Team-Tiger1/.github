@@ -77,7 +77,7 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 ## Architecture
 
 <p>
-  <img src="../TeamProjectBackend.png" alt="Project Logo" height="500px">
+  <img src="../architecture.png" alt="Project Logo" height="500px">
 </p>
 
 
