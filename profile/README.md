@@ -5,6 +5,15 @@ _By Team Tiger_
 
 Our website aims to help companies reduce food waste by allowing them to resell it to customers at a reduced price.
 
+## Website Preview
+
+<p>
+  <img src="../catalog.PNG" alt="Project Logo" height="500px">
+  <img src="../vendor.PNG" alt="Project Logo" height="500px">
+  <img src="../dashboard.PNG" alt="Project Logo" height="500px">
+  <img src="../analytics.PNG" alt="Project Logo" height="500px">
+</p>
+
 ## Tech Stack
 
 ### Languages
@@ -68,7 +77,7 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 ## Architecture
 
 <p>
-  <img src="TeamProjectBackend.png" alt="Project Logo" height="500px">
+  <img src="../TeamProjectBackend.png" alt="Project Logo" height="500px">
 </p>
 
 
