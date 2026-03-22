@@ -140,6 +140,19 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 
 <br>
 
+**Author: Jed Leas**
+
+- Setting up all CI/CD workflows to handle
+  1. Automatic testing on push of main branch on the User Service repo
+  2. Automatic Deployment onto k3s on completion of automatic testing so broken code won't make it to deployment
+- Set up the connection to the PostgreSQL database, and RabbitMQ
+- - **Added SpotBugs Dependancy to perform SAST**
+- - **Added Liveliness checks to workflow for zero downtime Deployment**
+- - **Fixed countMoneySaved and countMoneySavedForTimePeriod sql queries**
+- **Helped Review PR's**
+
+<br>
+
 ### Product Service 
 **Author: Robert Rainer**
 - Developed Product and Allergen Components:
@@ -152,8 +165,6 @@ Our website aims to help companies reduce food waste by allowing them to resell 
    - Developed ProductMapper to convert entities into DTOs 
    - Created repository interfaces for Product and Allergy database operations
 - Commented Product Service    
-
-
 
 <br>
 
@@ -185,6 +196,17 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 
  <br>
 
+ **Author: Jed Leas**
+- Setting up all CI/CD workflows to handle
+  1. Automatic testing on push of main branch on the Product Service repo
+  2. Automatic Deployment onto k3s on completion of automatic testing so broken code won't make it to deployment
+- Set up the connection to the PostgreSQL database, and RabbitMQ
+- - **Added SpotBugs Dependancy to perform SAST**
+- - **Added Liveliness checks to workflow for zero downtime Deployment**
+- **Helped Review PR's**
+
+<br>
+
 ### Forecast Service
 **Author: Alex Greasley**
 - Created the scripts used for generating seeded data, simulating realistic user behaviour to establish trends for the ML models.
@@ -206,6 +228,10 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 - Added input validation to the /optimise endpoint.
 - Co-Developed unit and integration tests using pytest and FastAPI TestClient with Alex Greasley.
 - Helped with bug fixing of Auth and Forecast service.
+- **Removed all returning of Specific Errors**
+- **Added input validation to simulate endpoint**
+- **Reviewed Pull Requests**
+- **Optimized Image to ingore specific files and only have a single copy of the dependancies as that reduced image size from aproximatley 35GB to 15GB**
 
 <br>
 
@@ -253,6 +279,27 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 - Created Lofi designs for Forecast and Create Bundle pages
 - Created the supplier Forecast page: HTML, CSS, javascript
 - Made minor adjustments scross the frontend to improve UX
+
+## CW2 Website Contributions
+
+**Author: Jed Leas**
+
+Added minor bug fixes and features which included:
+- Analytics page
+  - Discount sell through rates graph
+  - Average weights in summary box
+  - Weights and Average weights in the raw data for:
+    - Collected Bundles
+    - No Show Bundles
+    - Expired Bundles
+  - Added mobile friendly formating
+- Catalog Page
+  - Adjusted disclaimer popup to include link to our Food Safety & Allergies page
+- New Bundle Page
+  - Disabled create new bundle while waiting for response
+  - Added popup to make new bundle creation more clear
+- Supplier Register Page
+  - Fixed phone number length constraint
   
 <br>
 
@@ -267,7 +314,14 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 - As well as setting up all CI/CD workflows to handle 
   - Automatic testing on push of main branch on each microservices repo
   - Automatic Deployment onto k3s with zero downtime on compleation of automatic testing so broken code wont make it to deployment
-- And Sorting out bug fixes and connections between each microservices to eachother and the databases for both deployment and testings  
+- And Sorting out bug fixes and connections between each microservices to eachother and the databases for both deployment and testings
+
+- **Performed SAST**:
+    - **Spot Bugs for Java Microservices**
+    - **Bandit for Python Microservices (Forecast Service)**
+- **Performed DAST using ZAP**
+- **Implemented Zero downtime deployment using liviness checks**
+- **Optimized ForecastService Image to ignore specific files and only have a single copy of the dependancies as that reduced image size from aproximatley 35GB to 15GB**
 
 <br>
 
@@ -336,7 +390,14 @@ Our website aims to help companies reduce food waste by allowing them to resell 
       - Story point estimations
       - Who’s going to be working on what
       - Technical Rational if needed
+**CW2**
+- Authored:
+  - security_checklist.pdf
+  - maintenance_and_troubleshooting.pdf
+  - deployment_and_operations.pdf
+  - Evalutation of sprint two goals
 <br>
+
 
 
 **Author: Toby Beckett**
