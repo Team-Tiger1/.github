@@ -294,6 +294,8 @@ Our website aims to help companies reduce food waste by allowing them to resell 
   - Wrote about architectural decisions we made and their impact
   - Explained the rationale behind choosing our languages and frameworks
 - Made the Software/Data Licensing document
+- Wrote about next steps for the project
+- Wrote about how to audit the java dependencies for security vulnerabilities 
 
 <br>
 
