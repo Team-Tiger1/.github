@@ -146,10 +146,10 @@ Our website aims to help companies reduce food waste by allowing them to resell 
   1. Automatic testing on push of main branch on the User Service repo
   2. Automatic Deployment onto k3s on completion of automatic testing so broken code won't make it to deployment
 - Set up the connection to the PostgreSQL database, and RabbitMQ
-- - **Added SpotBugs Dependancy to perform SAST**
-- - **Added Liveliness checks to workflow for zero downtime Deployment**
-- - **Fixed countMoneySaved and countMoneySavedForTimePeriod sql queries**
-- **Helped Review PR's**
+- - Added SpotBugs Dependancy to perform SAST
+- - Added Liveliness checks to workflow for zero downtime Deployment
+- - Fixed countMoneySaved and countMoneySavedForTimePeriod sql queries
+- Helped Review PR's
 
 <br>
 
@@ -201,9 +201,12 @@ Our website aims to help companies reduce food waste by allowing them to resell 
   1. Automatic testing on push of main branch on the Product Service repo
   2. Automatic Deployment onto k3s on completion of automatic testing so broken code won't make it to deployment
 - Set up the connection to the PostgreSQL database, and RabbitMQ
-- - **Added SpotBugs Dependancy to perform SAST**
-- - **Added Liveliness checks to workflow for zero downtime Deployment**
-- **Helped Review PR's**
+- - Added SpotBugs Dependancy to perform SAST
+- - Added Liveliness checks to workflow for zero downtime Deployment
+- Helped Review PR's
+
+**Author: Alex Greasley**
+- Helped review pull requests
 
 <br>
 
@@ -216,6 +219,8 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 - Built the Forecast Service API, using FastAPI to create the /predict, /simulate, and /optimise endpoints and authorised them using JWT Auth.
 - Integrated the Weather API to fetch historical data for model training and real-time conditions for predicting reservations and collections.
 - Co-Developed unit and integration tests using pytest and FastAPI TestClient with Jed Leas.
+- Reviewed pull requests.
+- 
 
 <br>
 
@@ -223,15 +228,15 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 
 - Setting up all CI/CD workflows to handle.
     1. Automatic testing on push of main branch on the forcast service repo.
-  2. Automatic Deployment onto k3s with zero downtime on completion of automatic testing so broken code won't make it to deployment.
+  2. Automatic Deployment onto k3s on completion of automatic testing so broken code won't make it to deployment.
 - And Sorting out bug fixes and connections between each microservice's to the forecast service and set up the connection to the postgre database.
 - Added input validation to the /optimise endpoint.
 - Co-Developed unit and integration tests using pytest and FastAPI TestClient with Alex Greasley.
 - Helped with bug fixing of Auth and Forecast service.
-- **Removed all returning of Specific Errors**
-- **Added input validation to simulate endpoint**
-- **Reviewed Pull Requests**
-- **Optimized Image to ingore specific files and only have a single copy of the dependancies as that reduced image size from aproximatley 35GB to 15GB**
+- Removed all returning of Specific Errors.
+- Added input validation to simulate endpoint.
+- Reviewed Pull Requests.
+- Optimized Image to ignore specific files and only have a single copy of the dependencies as that reduced image size from approximately 35GB to 15GB.
 
 <br>
 
@@ -278,12 +283,9 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 **Author: Alex Greasley**
 - Created Lofi designs for Forecast and Create Bundle pages
 - Created the supplier Forecast page: HTML, CSS, javascript
-- Made minor adjustments scross the frontend to improve UX
-
-## CW2 Website Contributions
+- Made minor adjustments across the frontend to improve UX
 
 **Author: Jed Leas**
-
 Added minor bug fixes and features which included:
 - Analytics page
   - Discount sell through rates graph
@@ -315,13 +317,12 @@ Added minor bug fixes and features which included:
   - Automatic testing on push of main branch on each microservices repo
   - Automatic Deployment onto k3s with zero downtime on compleation of automatic testing so broken code wont make it to deployment
 - And Sorting out bug fixes and connections between each microservices to eachother and the databases for both deployment and testings
-
-- **Performed SAST**:
-    - **Spot Bugs for Java Microservices**
-    - **Bandit for Python Microservices (Forecast Service)**
-- **Performed DAST using ZAP**
-- **Implemented Zero downtime deployment using liviness checks**
-- **Optimized ForecastService Image to ignore specific files and only have a single copy of the dependancies as that reduced image size from aproximatley 35GB to 15GB**
+- Performed SAST:
+    - Spot Bugs for Java Microservices
+    - Bandit for Python Microservices (Forecast Service)
+- Performed DAST using ZAP
+- Implemented Zero downtime deployment using liviness checks
+- Optimized ForecastService Image to ignore specific files and only have a single copy of the dependancies as that reduced image size from aproximatley 35GB to 15GB
 
 <br>
 
@@ -358,17 +359,20 @@ Added minor bug fixes and features which included:
   - Explained each tables generation
   - Discussed early versions and improvements made
   - Justified decisions made
-- Wrote Forecasting Model description
+- Wrote Forecast Model description
   - Explained preprocessing techniques used
   - Discussed previous models used and improvements made
   - Justified decisions made
-  - Wrote about future plans for the forecasting models
   - Highlighted areas for improvement
+- Wrote Forecast Endpoints descriptions
+  - Discussed /predict, /simulate, and /optimise endpoints
+  - Explained how each works
 - Wrote Process Evidence
   - Discussed Role Allocation
   - Explained Task Management
   - Discussed Risk Management
 - Wrote Risk Register
+- Wrote Scrum Board Export
 
 <br>
 
@@ -390,7 +394,6 @@ Added minor bug fixes and features which included:
       - Story point estimations
       - Who’s going to be working on what
       - Technical Rational if needed
-**CW2**
 - Authored:
   - security_checklist.pdf
   - maintenance_and_troubleshooting.pdf
