@@ -102,28 +102,41 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 ### User Service
 **Author: Daniel Jackson**
 - Setup Authentication Components:
-  - Created Refresh and Access Token Generation using Secret Key
-  - Created methods to extract user type and Id from access token
-  - Created endpoint for users and vendors to refresh their access token
+    - Created Refresh and Access Token Generation using Secret Key
+    - Created methods to extract user type and Id from access token
+    - Created endpoint for users and vendors to refresh their access token
 - Setup User Components:
-  - Created User Endpoints and specified the data required in the request
-  - Validated incoming request data at the DTO layer
-  - Defined the User and Streak database tables and linked them using Spring Boot JPA
-  - Wrote custom SQL queries using JPARepository
-  - Wrote business logic in the service layer that accesses the database
-  - Defined Custom Exceptions to improve visibility in the logs
-  - Setup a RabbitMQ Listener that receives updates to the streak
-  - Created a Component that generates a unique username using random adjectives and nouns
- - Setup Vendor Components:
-   - Created Vendor Endpoints and specified the data required in the request
-   - Validated incoming request data at the DTO layer
-   - Defined the Vendor database table using Spring Boot JPA
-   - Wrote business logic in the Vendor Service layer that accesses the database
+    - Created User Endpoints and specified the data required in the request
+    - Validated incoming request data at the DTO layer
+    - Defined the User and Streak database tables and linked them using Spring Boot JPA
+    - Wrote custom SQL queries using JPARepository
+    - Wrote business logic in the service layer that accesses the database
+    - Defined Custom Exceptions to improve visibility in the logs
+    - Setup a RabbitMQ Listener that receives updates to the streak
+    - Created a Component that generates a unique username using random adjectives and nouns
+    - Setup Endpoints to modify account data and allow the user to delete their account
+    - Setup an endpoint so the user can logout
+- Setup Vendor Components:
+    - Created Vendor Endpoints and specified the data required in the request
+    - Validated incoming request data at the DTO layer
+    - Defined the Vendor database table using Spring Boot JPA
+    - Wrote business logic in the Vendor Service layer that accesses the database
+    - Setup Endpoints to modify account data and allow the vendor to delete their account
+    - Setup an endpoint so the vendor can logout
+- Setup Dispute Components:
+    - Created Endpoints for Users to submit a dispute against a vendor
+    - Created Endpoints for Vendors to Respond to disputes made against them
+- Setup User Impact Component:
+    - Setup Badge Endpoints and RabbitMQ listeners to update badges on reservation collection
+    - Setup Leaderboard endpoint so show top 10 users and users position
 - Added OpenAPI documentation to improve visibility of the backend for the front-end developers
 - Enforced Controller-Service-Repository model to improve consistency across services for developers
 - Setup Spring Boot Profiles to manage configurations for production, development and testing environments
 - Used Maven Licensing Plugin to check permissions of dependency licenses (Software Inventory)
+- Used Maven Dependency Security Plugin to Audit Dependencies for Security Vunerabilities
+- Setup Redis Cache Configuration and Cached Popular Endpoints
 - Created README file to show details about the repository
+- Added Comments and Javadocs to improve readability of code
 
 <br>
 
@@ -147,23 +160,27 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 **Author: Daniel Jackson**
 - Led code structure discussions with Robert Rainer about using the MVC model
 - Setup Bundle Components:
-  - Created Bundle Endpoints and specified the data required in the request
-  - Created endpoints that support pagination for SQL queries
-  - Validated incoming requests data at the DTO layer
-  - Wrote SQL Queries that joined multiple tables
-  - Defined Bundle and BundleProducts (joining table) database tables using Spring Boot JPA
-  - Wrote business logic in Bundle Service Layer that accesses the database
-  - Defined Custom Exceptions to improve visibility in the logs
+    - Created Bundle Endpoints and specified the data required in the request
+    - Created endpoints that support pagination for SQL queries
+    - Validated incoming requests data at the DTO layer
+    - Wrote SQL Queries that joined multiple tables
+    - Defined Bundle and BundleProducts (joining table) database tables using Spring Boot JPA
+    - Wrote business logic in Bundle Service Layer that accesses the database
+    - Defined Custom Exceptions to improve visibility in the logs
+    - Created endpoints so the vendors can edit/delete bundles
 - Setup Reservation Components:
-  - Created Reservation Endpoints and specified the data required in the request
-  - Validated incoming request data at the DTO layer
-  - Defined Reservation and Claim code database tables and linked them
-  - Defined RabbitMQ configuration and published messages to the queue
-  - Defined Custom Exceptions to improve visibility in the logs
-  - Wrote business logic in the Reservation Service Layer that accesses the database
+    - Created Reservation Endpoints and specified the data required in the request
+    - Validated incoming request data at the DTO layer
+    - Defined Reservation and Claim code database tables and linked them
+    - Defined RabbitMQ configuration and published messages to the queue
+    - Defined Custom Exceptions to improve visibility in the logs
+    - Wrote business logic in the Reservation Service Layer that accesses the database
+    - Setup a delayed queue (RabbitMQ) to automatically handle No-Shows
 - Added OpenAPI documentation to improve visibility of the backend for the front-end developers
 - Enforced Controller-Service-Repository model to improve consistency across services for developers
 - Used Maven Licensing Plugin to check permissions of dependency licenses (Software Inventory)
+- Used Maven Dependency Security Plugin to Audit Dependencies for Security Vunerabilities
+- Setup Redis Cache Configuration and Cached Popular Endpoints
 - Created README file to show details about the repository
 
  <br>
@@ -225,7 +242,7 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 **Author: Daniel Jackson**
 - Integrated the Authentication Mechanism into the Website
   - Created a check to see if the access token is valid
-  - Created standard POST and GET methods with retry mechanisms
+  - Created standard POST, GET, PATCH and DELETE methods with retry mechanisms
 - Created the Vendor Page
   - Created Display for Vendor Information and Google Map Embed
   - Created List of Available Bundles with Drop-Down for Product List
