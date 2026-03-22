@@ -170,27 +170,30 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 
 ### Forecast Service
 **Author: Alex Greasley**
-- Created the scripts used for generating seeded data, simulating realistic user behaviour to establish trends for the ML models
-- Wrote scripts that cleaned and denormalised relational data to prepare it for bulk transfer into the production database
-- Developed the Machine Learning training pipeline, including data preprocessing, feature engineering, and the training of the Gradient Boosting classifiers used for predicting reservations and collections
-- Built the Forecast Service API, using FastAPI to create the /predict and /simulate endpoints and authorised them using JWT Auth
-- Integrated the Weather API to fetch historical data for model training and real-time conditions for predicting reservations and collections
+- Created the scripts used for generating seeded data, simulating realistic user behaviour to establish trends for the ML models.
+- Wrote scripts that cleaned and denormalised relational data to prepare it for bulk transfer into the production database.
+- Developed the Machine Learning training pipeline, including data preprocessing, feature engineering, and the training of the Voting classifiers used for predicting reservations and collections.
+- Implemented Sentence Transformer to preprocessing pipeline, enabling the model to handle unknown weather conditions.
+- Built the Forecast Service API, using FastAPI to create the /predict, /simulate, and /optimise endpoints and authorised them using JWT Auth.
+- Integrated the Weather API to fetch historical data for model training and real-time conditions for predicting reservations and collections.
 - Co-Developed unit and integration tests using pytest and FastAPI TestClient with Jed Leas.
 
 <br>
 
 **Author: Jed Leas**
-- Setting up all CI/CD workflows to handle 
-    1. Automatic testing on push of main branch on the forcast service repo
-  2. Automatic Deployment onto k3s with zero downtime on completion of automatic testing so broken code won't make it to deployment
-- And Sorting out bug fixes and connections between each microservice's to the forecast service and set up the connection to the postgre database
+
+- Setting up all CI/CD workflows to handle.
+    1. Automatic testing on push of main branch on the forcast service repo.
+  2. Automatic Deployment onto k3s with zero downtime on completion of automatic testing so broken code won't make it to deployment.
+- And Sorting out bug fixes and connections between each microservice's to the forecast service and set up the connection to the postgre database.
+- Added input validation to the /optimise endpoint.
 - Co-Developed unit and integration tests using pytest and FastAPI TestClient with Alex Greasley.
-- Helped with bug fixing of Auth and Forecast service
+- Helped with bug fixing of Auth and Forecast service.
 
 <br>
 
 **Author: Daniel Jackson**
-- Used pip-licenses to check permissions of python module licenses (Software Inventory)
+- Used pip-licenses to check permissions of python module licenses (Software Inventory).
 
 <br>
 
@@ -204,7 +207,6 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 - Created the supplier Signup page: HTML, CSS and javascript
 - Created the users Catalog page: HTML, CSS and javascript
 - Created the users Orders page: HTML, CSS and javascript
-- Created the suppliers forecast page: HTML, CSS and javascript
 - Created the index page: javascript and HTML
 - Created the README file for the front end repository
 - Being Team Lead, this included taking all the meeting notes and monitoring jira. This also included having frequent calls with the backend team to understand proguess and if any problems needed to be discussed in the coming team meeting.
@@ -212,7 +214,7 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 <br>
 
 **Author: William Foulger**
-- Created the Lofi designs for the Dashboard, Forecast, Create produce, create bunlde, Analytics and forecast pages
+- Created the Lofi designs for the Dashboard, Create Product, and Analytics pages
 - Created the supplier Dashboard page: HTML, CSS, javascript
 - Created the supplier Create Products page: HTML, CSS, javascript
 - Created the supplier Create Bundles page: HTML, CSS, javascript
@@ -229,6 +231,11 @@ Our website aims to help companies reduce food waste by allowing them to resell 
   - Created List of Available Bundles with Drop-Down for Product List
 - Created Standard Header and Footer for all Web pages
 - Added Analytics Page so vendors can see reservation statistics
+
+**Author: Alex Greasley**
+- Created Lofi designs for Forecast and Create Bundle pages
+- Created the supplier Forecast page: HTML, CSS, javascript
+- Made minor adjustments scross the frontend to improve UX
   
 <br>
 
