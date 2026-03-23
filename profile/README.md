@@ -216,11 +216,10 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 - Wrote scripts that cleaned and denormalised relational data to prepare it for bulk transfer into the production database.
 - Developed the Machine Learning training pipeline, including data preprocessing, feature engineering, and the training of the Voting classifiers used for predicting reservations and collections.
 - Implemented Sentence Transformer to preprocessing pipeline, enabling the model to handle unknown weather conditions.
-- Built the Forecast Service API, using FastAPI to create the /predict, /simulate, and /optimise endpoints and authorised them using JWT Auth.
+- Built the Forecast Service API, using FastAPI to create the /predict, /simulate, /production-advice, and /optimise endpoints and authorised them using JWT Auth.
 - Integrated the Weather API to fetch historical data for model training and real-time conditions for predicting reservations and collections.
 - Co-Developed unit and integration tests using pytest and FastAPI TestClient with Jed Leas.
 - Reviewed pull requests.
-- 
 
 <br>
 
@@ -303,8 +302,9 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 - Created the badges
 
 **Author: Alex Greasley**
-- Created Lofi designs for Forecast and Create Bundle pages
+- Created Lofi designs for Forecast, Simulate, and Create Bundle pages
 - Created the supplier Forecast page: HTML, CSS, JavaScript
+- Created the supplier Simulate page: HTML, CSS, JavaScript
 - Made minor adjustments across the frontend to improve UX
 
 **Author: Jed Leas**
