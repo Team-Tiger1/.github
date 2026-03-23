@@ -247,42 +247,64 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 
 ## Website 
 **Author: Toby Beckett**
-- My role was Team-Lead/Scrum-Master, Front end
 - Created the Lofi Designs for the Login (supplier and user), register(Supplier and user), Orders, catalog, impact, and the report issue pages that are all on the user side of the website
-- Created the user Login page: HTML, CSS and javascript
-- Created the user Signup page: HTML, CSS and javascript
-- Created the supplier Login page: HTML, CSS and javascript
-- Created the supplier Signup page: HTML, CSS and javascript
-- Created the users Catalog page: HTML, CSS and javascript
-- Created the users Orders page: HTML, CSS and javascript
-- Created the index page: javascript and HTML
+- Created the user Login page: HTML, CSS and JavaScript
+- Created the user Signup page: HTML, CSS and JavaScript
+- Created the supplier Login page: HTML, CSS and JavaScript
+- Created the supplier Signup page: HTML, CSS and JavaScript
+- Created the users Catalog page: HTML, CSS and JavaScript
+- Created the users Orders page: HTML, CSS and JavaScript
+- Created the suppliers forecast page: HTML, CSS and JavaScript
+- Created the index page: JavaScript and HTML
 - Created the README file for the front end repository
-- Being Team Lead, this included taking all the meeting notes and monitoring jira. This also included having frequent calls with the backend team to understand proguess and if any problems needed to be discussed in the coming team meeting.
-
-<br>
+- Added keyboard navigation to all pages
+- Made all pages have the required WCAG accessibility colour contrast and text size
+- Created the user impact page: HTML, CSS, JS
+  - Added badges
+  - Waste and Money leaderboards
+  - Personnel impact summary
+- Created the user disputes page so the user could start disputes based on bundles they have collected/reserved/noshow: HTML, CSS, JS
+- Created search bar and filter catalog page
+- Made all pages resistant to XSS through sanitization of displaying any user inputted information
+- Created manage account page: HTML, CSS, JS
+  - change email
+  - change password
+  - delete account
+- Ensuring all pages and new ones are mobile accessible
+- Added labels to the frontend pages for screen reading capability 
 
 **Author: William Foulger**
 - Created the Lofi designs for the Dashboard, Create Product, and Analytics pages
-- Created the supplier Dashboard page: HTML, CSS, javascript
-- Created the supplier Create Products page: HTML, CSS, javascript
-- Created the supplier Create Bundles page: HTML, CSS, javascript
-- Role front end
-
-<br>
+- Created the supplier Dashboard page: HTML, CSS, JavaScript
+- Created the supplier Create Products page: HTML, CSS, JavaScript
+- Created the supplier Create Bundles page: HTML, CSS, JavaScript
+- Created disputes page: HTML, CSS, JavaScript
+- Created manage vendor account page: HTML, CSS, JavaScript
+  - Change vendor details (company name, email address, street address, postcode, phone number, description)
+  - Change email
+  - Change password
+  - Delete account
+- Adding screen reader accessibility to vendor pages
+- Ensuring all pages and new ones are mobile accessible
+- Rework the create bundle page
+  - Implement the optimise button
+  - Scrollable product page
+  - Search bar for products
 
 **Author: Daniel Jackson**
 - Integrated the Authentication Mechanism into the Website
   - Created a check to see if the access token is valid
-  - Created standard POST, GET, PATCH and DELETE methods with retry mechanisms
+  - Created standard POST and GET methods with retry mechanisms
 - Created the Vendor Page
   - Created Display for Vendor Information and Google Map Embed
   - Created List of Available Bundles with Drop-Down for Product List
 - Created Standard Header and Footer for all Web pages
-- Added Analytics Page so vendors can see reservation statistics
+- Created Analytics page so Vendor's can see bundle performance across different time spans
+- Created the badges
 
 **Author: Alex Greasley**
 - Created Lofi designs for Forecast and Create Bundle pages
-- Created the supplier Forecast page: HTML, CSS, javascript
+- Created the supplier Forecast page: HTML, CSS, JavaScript
 - Made minor adjustments across the frontend to improve UX
 
 **Author: Jed Leas**
