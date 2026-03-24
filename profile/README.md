@@ -469,15 +469,14 @@ Added minor bug fixes and features which included:
 - Reviewed and refined the risk register to ensure risks and mitigations fit the final platform.
 - Updated multiple risks, especially expanding mitigation explanations.
 - Added a few risks with details to the risk register.
-- Produced the website footer content, which includes: Terms of use, privacy policy, food safety & allergies statements, cookies statement, accessibility statement, licencing statement.
+- Produced the website footer content, which includes: Terms of use, privacy policy, food safety & allergies statements, cookies statement, accessibility statement including limitations, licencing statement.
 <br>
 
 ## Ethical and Legal considerations
 **Author: Oscar De Lemos**
-- Produced the full Ethical and Legal considerations document covering food safety, allergen disclosure, consumer fairness, gamification risks, accessibility, environmental impact, privacy, security, intellectual property and data licensing.
-- Described the food safety responsibilities and liabilities of the platform, sellers, and users.
+- Produced the full Ethical and Legal Considerations document covering Food and Consumer Safety, Allergy Information, Consumer Fairness, Gamification, Accessibility, Environmental and Societal Impact, Forecasting and Recommendations, Misrepresentation and Brand Confusion, Privacy, Liability and Disclaimers, Data Protection, Security, Intellectual Property, Data Licensing, Accessibility Compliance, and the Ethics Approval Statement.
+- Described the food safety responsibilities and liabilities of the platform, sellers, and users. 
 - Identified key risks such as misleading listings, allergen inaccuracies and potential data exposure, and documented approaches the platform implements to mitigate these risks.
-- Wrote the website footer policy content, including: Terms of Use, Privacy Policy, Food Safety & Allergy statements, Cookies statement, and Accessibility Statement including known limitations.
 - Produced the Ethics Approval Statement, explaining why ethics approval was not required.
 <br>
 
