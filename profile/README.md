@@ -465,6 +465,13 @@ Added minor bug fixes and features which included:
 
 <br>
 
+**Author: Oscar De Lemos**
+- Reviewed and refined the risk register to ensure risks and mitigations fit the final platform.
+- Updated multiple risks, especially expanding mitigation explanations.
+- Added a few risks with details to the risk register.
+- Produced the website footer content, which includes: Terms of use, privacy policy, food safety & allergies statements, cookies statement, accessibility statement, licencing statement.
+<br>
+
 ## Ethical and Legal considerations
 **Author: Oscar De Lemos**
 - Produced the full Ethical and Legal considerations document covering food safety, allergen disclosure, consumer fairness, gamification risks, accessibility, environmental impact, privacy, security, intellectual property and data licensing.
@@ -480,4 +487,14 @@ Added minor bug fixes and features which included:
 - Selected MIT Licence as the project's licence following my assessment.
 - Wrote the licence decision with justification, explaining the licence's suitability and compatibility with third party dependencies.
 - Configured and inserted the MIT LICENSE file across all project repositories.
+<br>
 
+## Data Storage and Usage
+**Author: Oscar De Lemos**
+- Produced the Data Storage and Usage document describing what personal and operational data the platform stores and uses.
+- Documented the data collected from consumers, vendors, and platform activity.
+- Explained why each type of data is collected.
+- Documented the platform’s data protection approach, and how we followed GDPR principles.
+- Wrote the sections describing how data is protected.
+- Documented data retention, third-party access limits, and the use of synthetic and real-world non-identifying data such as weather inputs.
+<br>
