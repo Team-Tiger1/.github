@@ -140,6 +140,15 @@ Our website aims to help companies reduce food waste by allowing them to resell 
 
 <br>
 
+**Author: Robert Rainer**
+- Added endpoints for User Impact
+  - Created endpoint to get money saved
+  - Created endpoint to get waste saved
+  - Created endpoint to get total orders
+- Added API Documentation to increase visibility of Endpoints on Swagger
+
+<br>
+
 **Author: Jed Leas**
 
 - Setting up all CI/CD workflows to handle
@@ -164,7 +173,8 @@ Our website aims to help companies reduce food waste by allowing them to resell 
    - Wrote business logic in Product Service Layer that accesses the database
    - Developed ProductMapper to convert entities into DTOs 
    - Created repository interfaces for Product and Allergy database operations
-- Commented Product Service    
+- Commented Product Service
+- Added API Documentation to increase visibility of Endpoints on Swagger    
 
 <br>
 
